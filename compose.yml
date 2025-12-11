@@ -1,0 +1,13 @@
+services:
+  slack-bot:
+    build:
+      context: .
+      dockerfile: dockerfile
+    container_name: compass-reply-bot
+    restart: unless-stopped
+    environment:
+      - SLACK_BOT_TOKEN=${SLACK_BOT_TOKEN}
+      - SLACK_APP_TOKEN=${SLACK_APP_TOKEN}
+      - COMPASS_CHANNEL=${COMPASS_CHANNEL}
+    env_file:
+      - .env
