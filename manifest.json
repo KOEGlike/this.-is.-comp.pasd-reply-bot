@@ -1,7 +1,7 @@
 {
     "display_information": {
         "name": "this. is. comp.pasd reply bot",
-        "description": "this. is. comp.pasd",
+        "description": "this. is. a bot",
         "background_color": "#2e5ff2"
     },
     "features": {
@@ -23,8 +23,11 @@
         }
     },
     "settings": {
+        "interactivity": {
+            "is_enabled": true
+        },
         "org_deploy_enabled": false,
-        "socket_mode_enabled": false,
+        "socket_mode_enabled": true,
         "token_rotation_enabled": false
     }
 }
