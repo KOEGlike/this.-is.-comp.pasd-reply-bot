@@ -1,0 +1,30 @@
+{
+    "display_information": {
+        "name": "this. is. comp.pasd reply bot",
+        "description": "this. is. comp.pasd",
+        "background_color": "#2e5ff2"
+    },
+    "features": {
+        "bot_user": {
+            "display_name": "this. is. comp.pasd reply bot",
+            "always_online": true
+        }
+    },
+    "oauth_config": {
+        "scopes": {
+            "user": [
+                "channels:history"
+            ],
+            "bot": [
+                "channels:history",
+                "chat:write",
+                "channels:read"
+            ]
+        }
+    },
+    "settings": {
+        "org_deploy_enabled": false,
+        "socket_mode_enabled": false,
+        "token_rotation_enabled": false
+    }
+}
