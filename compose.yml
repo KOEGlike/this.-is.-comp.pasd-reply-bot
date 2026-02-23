@@ -10,4 +10,5 @@ services:
       - SLACK_APP_TOKEN=${SLACK_APP_TOKEN}
       - COMPASS_CHANNEL=${COMPASS_CHANNEL}
     env_file:
-      - .env
+      - path: .env
+        required: false
