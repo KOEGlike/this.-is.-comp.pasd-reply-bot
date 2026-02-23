@@ -44,5 +44,5 @@ app.event("message", async ({ event, say, client, logger }) => {
 
   await app.start();
 
-  console.log(`⚡️ Slack Bolt app is running!`);
+  console.log(`⚡️ Slack Bolt app is running! channel: ${COMPASS_CHANNEL}`);
 })();
