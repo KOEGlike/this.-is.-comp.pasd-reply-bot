@@ -12,7 +12,6 @@ RUN npm install
 
 # Copy application files
 COPY main.ts ./
-COPY .env ./
 
 # Expose port (optional, since you're using Socket Mode)
 # EXPOSE 3000
